@@ -1,0 +1,13 @@
+Package: PerturbMeta
+Title: Unravel the perturbation effects at the gene module level in single-cell CRISPR screening data 
+Version: 1.0.0
+Authors@R: c(
+    person("Jie", "Chen" , email="12319001@zju.edu.cn", role =  "cre"),
+    person("Junyun", "Cheng" , email="ileslie@zju.edu.cn", role = "aut"))
+Description: PerturbMeta is a computational model to unravel the perturbation effects at the gene module level baesed on NMF and PLS-DA.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: Seurat(>= 5.0.2),NMF,mixOmics,RVAideMemoire,dplyr,clusterProfiler,ggplot2,ggpubr,tibble,tidyr,AnnotationDbi,org.Hs.eg.db,org.Mm.eg.db,DOSE,doParallel
+Depends: R(>= 4.3.0)
